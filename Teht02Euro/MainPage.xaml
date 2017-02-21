@@ -8,11 +8,14 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button x:Name="muunnaeuro" Content="Muunna" HorizontalAlignment="Left" Margin="409,185,0,0" VerticalAlignment="Top" Click="muunnaeuro_Click"/>
-        <TextBlock x:Name="markkaTextBlock" HorizontalAlignment="Left" Margin="286,142,0,0" TextWrapping="Wrap" Text="Markat" VerticalAlignment="Top"/>
+        <Button x:Name="muunnamarkat" Content="Muunna Markat" HorizontalAlignment="Left" Margin="409,205,0,0" VerticalAlignment="Top" Click="muunnamarkat_Click"/>
+        <TextBlock x:Name="markkaTextBlock" HorizontalAlignment="Left" Margin="270,130,0,0" TextWrapping="Wrap" Text="Markat" VerticalAlignment="Top"/>
         <TextBox x:Name="markat" HorizontalAlignment="Left" Margin="270,205,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top"/>
-        <TextBlock x:Name="euroTextBlock" HorizontalAlignment="Left" Margin="583,142,0,0" TextWrapping="Wrap" Text="Eurot" VerticalAlignment="Top"/>
-        <TextBox x:Name="eurot" HorizontalAlignment="Left" Margin="567,205,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="euroTextBlock" HorizontalAlignment="Left" Margin="603,126,0,0" TextWrapping="Wrap" Text="Eurot" VerticalAlignment="Top"/>
+        <TextBlock x:Name="eurotulos" HorizontalAlignment="Left" Margin="620,217,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top"/>
+        <TextBox x:Name="eurot" HorizontalAlignment="Left" Margin="603,312,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="markkatulos" HorizontalAlignment="Left" Margin="287,318,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top"/>
+        <Button x:Name="muunnaeurot" Content="Muunna Eurot" HorizontalAlignment="Left" Margin="409,312,0,0" VerticalAlignment="Top" Click="muunnaeurot_Click"/>
 
     </Grid>
 </Page>

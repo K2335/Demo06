@@ -27,11 +27,18 @@ namespace Teht02Euro
             this.InitializeComponent();
         }
 
-        private void muunnaeuro_Click(object sender, RoutedEventArgs e)
+        private void muunnamarkat_Click(object sender, RoutedEventArgs e)
         {
-            int value = int.Parse(markat.Text);
-            value++;
-            eurot.Text = value.ToString();
+            double value = double.Parse(markat.Text);
+            value = value / 5.94573;
+            eurotulos.Text = value.ToString("0.00");
+        }
+
+        private void muunnaeurot_Click(object sender, RoutedEventArgs e)
+        {
+            double value = double.Parse(eurot.Text);
+            value = value * 5.94573;
+            markkatulos.Text = value.ToString("0.00");
         }
     }
 }
